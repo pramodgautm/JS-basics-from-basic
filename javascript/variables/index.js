@@ -16,8 +16,21 @@ console.log(age);
 //age below 18 =teen
 //age below 29is adult
 //age above 30 =old
-if (age > 18) {
+
+/*if (age > 18) {
   alert("you are adult");
 } else {
   alert("you are child");
+}*/
+
+//switch
+switch (age > 18) {
+  case true:
+    alert("you are adult");
+    break;
+  case false:
+    alert("you are child");
+    break;
+  default:
+    alert("invalid");
 }
