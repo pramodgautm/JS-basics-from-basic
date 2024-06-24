@@ -24,7 +24,7 @@ console.log(age);
 }*/
 
 //switch
-switch (age > 18) {
+/*switch (age > 18) {
   case true:
     alert("you are adult");
     break;
@@ -33,4 +33,7 @@ switch (age > 18) {
     break;
   default:
     alert("invalid");
-}
+}*/
+
+//ternary operator
+const result = age > 19 ? alert("you are adult") : alert("you are child");
