@@ -51,3 +51,11 @@ const getEnv = () => {
   return password;
 };
 console.log(getEnv());
+
+//write a default function to print  'welcome guest' if user name is not yours!
+const welcome = (name, role = "Guest") => {
+  if (name === "Pramod") return `welcome Admin`;
+  return `welcome ${role}`;
+};
+welcome("Pramod");
+//write a default function to create a multiplication talble of 5.
